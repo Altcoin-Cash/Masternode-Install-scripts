@@ -59,6 +59,8 @@ systemctl start USER.service #To start Xeon service.
 systemctl stop USER.service #To stop Xeon service.
 systemctl is-enabled USER.service #To check whetether Xeon service is enabled on boot or not.
 ```
+
+Replace USER with your worker name.
 ***
 
 ## Donations:  
