@@ -6,7 +6,7 @@ This script was tested on [www.vultr.com](https://www.vultr.com/?ref=7408116) $5
 ***
 ## Installation:
 ```
-wget -q https://github.com/Altcoin-Cash/Masternode-Install-scripts/blob/master/install_nitro.sh
+wget -q https://raw.githubusercontent.com/Altcoin-Cash/Masternode-Install-scripts/master/install_nitro.sh
 chmod 755 install_nitro.sh
 ./install_nitro.sh
 ```
