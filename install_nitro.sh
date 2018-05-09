@@ -9,7 +9,7 @@ BINARY_CLI_FILE="nitro-cli"
 BINARY_PATH="/usr/local/bin/${BINARY_FILE}"
 DIR_COIN=".nitrocore"
 CONFIG_FILE="nitro.conf"
-DEFULT_PORT=14331
+DEFULT_PORT=5555
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
