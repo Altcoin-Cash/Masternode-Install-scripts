@@ -10,6 +10,11 @@ wget -q https://raw.githubusercontent.com/Altcoin-Cash/Masternode-Install-script
 chmod 755 install_nitro.sh
 ./install_nitro.sh
 ```
+NOTE: Due some pc problems while adding this script you may encounter an error "/bin/bash^M: bad interpreter: No such file or directory"
+To fix, open your script with vi or vim and enter in vi command mode (key Esc), then type this:
+:set fileformat=unix
+Finally save it
+:x! or :wq!
 ***
 
 Follow the FEW steps and SAVE RESUMEN INFORMATION. 
