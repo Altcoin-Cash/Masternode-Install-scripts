@@ -1,15 +1,16 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-NAME_COIN="ZALIAS"
-GIT_REPO="https://github.com/zaliasdev/zaliascore.git"
-BINARY_FILE="zaliasd"
-BINARY_CLI="/usr/local/bin/zalias-cli"
-BINARY_CLI_FILE="zalias-cli"
+NAME_COIN="IDAPAY"
+GIT_REPO="https://github.com/idapay/idapay.git"
+BINARY_FILE="idapayd"
+BINARY_CLI="/usr/local/bin/idapay-cli"
+BINARY_CLI_FILE="idapay-cli"
 BINARY_PATH="/usr/local/bin/${BINARY_FILE}"
-DIR_COIN=".zaliascore"
-CONFIG_FILE="zalias.conf"
-DEFULT_PORT=7936
+DIR_COIN=".idapaycore"
+CONFIG_FILE="idapay.conf"
+DEFULT_PORT=19285
+RPC_PORT=12958
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -145,7 +146,7 @@ cat << EOF > $WORKER_FOLDER/$CONFIG_FILE
 rpcuser=$RPCUSER
 rpcpassword=$RPCPASSWORD
 rpcallowip=127.0.0.1
-rpcport=$[PORT_COIN+1]
+rpcport=$RPC_PORT
 listen=1
 server=1
 daemon=1
