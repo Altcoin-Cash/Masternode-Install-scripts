@@ -6,8 +6,8 @@ Script create a worker and install in worker directory. You get the option to na
 Installation:
 
 wget -q https://github.com/Altcoin-Cash/Masternode-Install-scripts/blob/master/install_idapay.sh
-chmod 755 install_xeon.sh
-./install_xeon.sh
+chmod 755 install_idapay.sh
+./install_idapay.sh
 
 Follow the FEW steps and SAVE RESUMEN INFORMATION.
 Desktop wallet setup
