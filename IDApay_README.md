@@ -5,8 +5,10 @@ Multiples MN in same VPS not tested, this default to mainnet port.
 Script create a worker and install in worker directory. You get the option to name worker. This script was tested on www.vultr.com $5 Vps
 Installation:
 
-wget -q https://github.com/Altcoin-Cash/Masternode-Install-scripts/blob/master/install_idapay.sh
+wget -q https://raw.githubusercontent.com/Altcoin-Cash/Masternode-Install-scripts/master/install_idapay.sh
+
 chmod 755 install_idapay.sh
+
 ./install_idapay.sh
 
 Follow the FEW steps and SAVE RESUMEN INFORMATION.
