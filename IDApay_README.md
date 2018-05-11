@@ -7,7 +7,7 @@ Installation:
 
 wget -q https://raw.githubusercontent.com/Altcoin-Cash/Masternode-Install-scripts/master/install_idapay.sh
 chmod 755 install_idapay.sh
-./install_idapay.sh
+./install_idapay.sh 
 
 Follow the FEW steps and SAVE RESUMEN INFORMATION.
 Desktop wallet setup
